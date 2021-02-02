@@ -14,7 +14,6 @@ function App() {
   return (
     <div class="ml-2">
       <h3 class="title is-3">Person List</h3>
-
       {/* Convert me to a component! */}
       <table class="table is-bordered mb-3">
         <tbody>
@@ -30,11 +29,39 @@ function App() {
           </tr>
         </tbody>
       </table>
-
+      <table class="table is-bordered mb-3">
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>age</th>
+          </tr>
+          <tr>
+            <td>Alice</td>
+            <td>male</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+      </table>
+      <table class="table is-bordered mb-3">
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Age</th>
+          </tr>
+          <tr>
+            <td>phumiwit promchon 620612160</td>
+            <td>male</td>
+            <td>19</td>
+          </tr>
+        </tbody>
+      </table>
       {/* Code me please! */}
       <h3 class="title is-3">ID Counter</h3>
       <p>YOUR ID HERE</p>
-      <button>-</button>
+      <script>input.js;</script>
+      <p>620612160</p>;<button>-</button>
       <button>reset</button>
       <button>+</button>
     </div>
